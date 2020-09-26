@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df306807-a4c3-44b5-a57c-940f6eb724de" name="Default Changelist" comment="" />
+    <list default="true" id="df306807-a4c3-44b5-a57c-940f6eb724de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter_05_remoting/chapter_05_remoting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_06_messaging_kafka/chapter_06_messaging_kafka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_06_messaging_kafka/src/eat/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_07_configuration/chapter_07_configuration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_07_configuration/src/eat/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_08__build_deploy/chapter_08__build_deploy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_08__build_deploy/src/eat/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_08__build_deploy/src/eat/build/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_09_numpy/chapter_09_numpy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_09_numpy/src/eat/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_09_numpy/src/eat/numpy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_pandas/chapter_10_pandas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_pandas/src/eat/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_10_pandas/src/eat/pandas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ent-tutorial.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/python-ent-tutorial.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ent-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-ent-tutorial.iws" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,9 +51,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter_04_database" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter_10_pandas" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -78,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601158186390</updated>
-      <workItem from="1601158187639" duration="335000" />
+      <workItem from="1601158187639" duration="923000" />
     </task>
     <servers />
   </component>
@@ -86,17 +111,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="377" y="182" key="#Project_Structure" timestamp="1601158521184">
+    <state x="377" y="182" key="#Project_Structure" timestamp="1601159093119">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="377" y="182" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601158521184" />
-    <state x="677" y="348" key="FileChooserDialogImpl" timestamp="1601158513038">
+    <state x="377" y="182" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601159093119" />
+    <state x="677" y="348" key="FileChooserDialogImpl" timestamp="1601158975420">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="677" y="348" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601158513038" />
-    <state x="280" y="204" key="new project wizard" timestamp="1601158515930">
+    <state x="677" y="348" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601158975420" />
+    <state x="280" y="204" key="new project wizard" timestamp="1601158977378">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="280" y="204" key="new project wizard/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601158515930" />
+    <state x="280" y="204" key="new project wizard/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601158977378" />
   </component>
 </project>

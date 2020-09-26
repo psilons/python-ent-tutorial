@@ -12,6 +12,12 @@
       <module fileurl="file://$PROJECT_DIR$/chapter_02_parallel_computing/chapter_02_parallel_computing.iml" filepath="$PROJECT_DIR$/chapter_02_parallel_computing/chapter_02_parallel_computing.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_03_web_flask/chapter_03_web_flask.iml" filepath="$PROJECT_DIR$/chapter_03_web_flask/chapter_03_web_flask.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_04_database/chapter_04_database.iml" filepath="$PROJECT_DIR$/chapter_04_database/chapter_04_database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_05_remoting/chapter_05_remoting.iml" filepath="$PROJECT_DIR$/chapter_05_remoting/chapter_05_remoting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_06_messaging_kafka/chapter_06_messaging_kafka.iml" filepath="$PROJECT_DIR$/chapter_06_messaging_kafka/chapter_06_messaging_kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_07_configuration/chapter_07_configuration.iml" filepath="$PROJECT_DIR$/chapter_07_configuration/chapter_07_configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_08__build_deploy/chapter_08__build_deploy.iml" filepath="$PROJECT_DIR$/chapter_08__build_deploy/chapter_08__build_deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_09_numpy/chapter_09_numpy.iml" filepath="$PROJECT_DIR$/chapter_09_numpy/chapter_09_numpy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_10_pandas/chapter_10_pandas.iml" filepath="$PROJECT_DIR$/chapter_10_pandas/chapter_10_pandas.iml" />
       <module fileurl="file://$PROJECT_DIR$/python-ent-tutorial.iml" filepath="$PROJECT_DIR$/python-ent-tutorial.iml" />
     </modules>
   </component>
