@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chapter_01_office_docs/chapter_01_office_docs.iml" filepath="$PROJECT_DIR$/chapter_01_office_docs/chapter_01_office_docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_02_parallel_computing/chapter_02_parallel_computing.iml" filepath="$PROJECT_DIR$/chapter_02_parallel_computing/chapter_02_parallel_computing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_03_web_flask/chapter_03_web_flask.iml" filepath="$PROJECT_DIR$/chapter_03_web_flask/chapter_03_web_flask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_04_database/chapter_04_database.iml" filepath="$PROJECT_DIR$/chapter_04_database/chapter_04_database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/python-ent-tutorial.iml" filepath="$PROJECT_DIR$/python-ent-tutorial.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" project-jdk-name="Python 3.8 (py385_cb)" project-jdk-type="Python SDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
+</project>
