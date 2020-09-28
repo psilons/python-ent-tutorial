@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df306807-a4c3-44b5-a57c-940f6eb724de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter_03_web_flask/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_07_configuration/chapter_07_configuration.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_07_configuration/src/eat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_10__build_deploy/src/eat/build/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_08__build_deploy/chapter_08__build_deploy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_08__build_deploy/src/eat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_10__build_deploy/src/eat/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_08__build_deploy/src/eat/build/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/src/eat/numpy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_09_numpy/chapter_09_numpy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_09_numpy/src/eat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/src/eat/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_09_numpy/src/eat/numpy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_08_configuration/src/eat/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10_pandas/chapter_10_pandas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10_pandas/src/eat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_07_pandas/src/eat/pandas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_10_pandas/src/eat/pandas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_07_pandas/src/eat/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ent-tutorial.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/python-ent-tutorial.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-ent-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-ent-tutorial.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601158186390</updated>
-      <workItem from="1601158187639" duration="9108000" />
+      <workItem from="1601158187639" duration="14581000" />
     </task>
     <servers />
   </component>
@@ -98,10 +109,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="377" y="182" key="#Project_Structure" timestamp="1601159093119">
+    <state x="377" y="182" key="#Project_Structure" timestamp="1601254203464">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="377" y="182" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601159093119" />
+    <state x="377" y="182" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601254203464" />
     <state x="677" y="348" key="FileChooserDialogImpl" timestamp="1601164589707">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>

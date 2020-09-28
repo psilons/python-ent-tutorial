@@ -93,20 +93,36 @@ ___
     - RabbitMQ / ActiveMQ / ZeroMQ
     - AWS SQS
     - Twisted
-
-#### Application Configuration
-___
-- Networkx & Graphviz & PyDot
-
-#### Numpy 
-___
-- Numpy
-- Numba
-- Scipy
-- sympy
+- unique id generating: http://yewei.io/generate-short-id-python/
 
 #### Pandas
 ___
-- Pandas
+- Pandas: NoOO
 - Modin
 - pandas-profiling
+
+#### Application Configuration
+___
+- IoC
+- Networkx & Graphviz & PyDot
+
+#### Application Design 
+___
+- Software Engineering
+- DDD
+- Art of Architecture
+
+
+#### Build and Deployment
+___
+
+
+One topic that we intend to leave out because of the environment setup - 
+Authentication and Authorization. However, we want to highlight some
+features in this topic:
+- HTTP(S) Authentication: HTTP form or headers(such as "Basic Auth"), most of 
+  the time you will a token/cookie which will be used in subsequent calls.
+  
+- Kerberos based: Use current login information, so it realizes SSO.
+
+- Custom authentication, such oauth2
