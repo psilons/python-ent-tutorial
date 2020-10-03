@@ -20,7 +20,8 @@ duplicated data.
 ___
 GoF: Favor composition over inheritance.
 
-Composition hides implementation details.
+Composition hides implementation details, so it's always safe to compose.
+When composing, keep Law of Demeter and Information Completeness in mind.
 
 
 #### Get it working, get it right, and get it fast
@@ -88,10 +89,10 @@ know when it's right.
 
 A good design likely to provide support to make changes. We should feel like
 splitting bamboo, not taking much effort. On the other hands, if we feel like
-catching a hedgehog or tangled yarns, we need to do some cleanup first.
+catching a hedgehog or stretching tangled yarns, we need to do some cleanup first.
 In Chinese,  
-势长节短, 势如破竹  
-势短节长, 强弩之末
+势长节短, 势如破竹;  
+势短节长, 强弩之末. 
 
 When we do it right, the function/class interfaces should be very close to
 business requirements. They speak business languages, with extra details.
@@ -100,10 +101,10 @@ as well.
 
 ![The Art of Coding](the_art_of_coding.png)
 
-In math, there is only 1 answer(ok, we try to ensure that). Design is an art, 
-so there could be >1 way to do it right. However, there won't be many ways to do
-it right, maybe only a few ways to do it right. The road ahead is very narrow,
-like antelope canyon.
+In math, there is only 1 answer(ok, we try to ensure that). Design and coding 
+are arts, so there could be >1 way to do it right. However, there won't be many
+ways to do it right, maybe only a few ways to do it right. The road ahead is 
+very narrow, like antelope canyons. With the art of coding, we won't get lost.
 
 ![Narrow](narrow_road.jpg)
 

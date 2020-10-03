@@ -49,7 +49,7 @@ ___
 - JSON
     - Rest: JSON to Object Mapper
     - Large CSV data
-- Unique IDs
+- unique id generating: http://yewei.io/generate-short-id-python/
     
 Databases:
 https://db-engines.com/en/ranking
@@ -96,17 +96,20 @@ ___
 
 #### Messaging with Kafka
 ___
-- Send/Receive
+- Producer/Consumer
+- Queues and Topics
 - Broker Setup
 - Others:
     - RabbitMQ / ActiveMQ / ZeroMQ
     - AWS SQS
     - Twisted
-- unique id generating: http://yewei.io/generate-short-id-python/
+- Poison Message
 
 #### Pandas
 ___
 - Pandas: NoOO
+- Transforms
+- Aggregation
 - Modin
 - pandas-profiling
 
@@ -118,8 +121,6 @@ ___
 #### Application Design 
 ___  
 - [Software Design](chapter_09_design/software_engineering.md):
-    - Maintainability
-    - Reusability
 - [Design Principles](chapter_09_design/docs/design_principles.md)
 - [Design Patterns](chapter_09_design/docs/design_patterns.md)
 - [Design Idioms](chapter_09_design/docs/design_idioms.md)
@@ -135,8 +136,11 @@ One topic that we intend to leave out because of the environment setup -
 Authentication and Authorization. However, we want to highlight some
 features in this topic:
 - HTTP(S) Authentication: HTTP form or headers(such as "Basic Auth"), most of 
-  the time you will a token/cookie which will be used in subsequent calls.
+  the time you will get a token/cookie which will be used in subsequent calls.
   
 - Kerberos based: Use current login information, so it realizes SSO.
 
 - Custom authentication, such oauth2
+
+Because of the unavailable external setup, we leave this out of our scope.
+However, they are very common in enterprise applications.
