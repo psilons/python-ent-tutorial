@@ -67,7 +67,13 @@ If something/some process is good, push it to the extreme.
 
 Pair programming.
 
-Refactoring to the extreme.
+Refactoring to the extreme. It helps cleanup entanglements and isolate
+the most messy parts. When we want to break a big stone into smaller pieces,
+the best place to punch is existing cracks. In Chinese, this is an idiom:  
+攻坚则瑕者坚  
+攻瑕则坚者瑕 - 管仲  
+Find the sweetest spot to break in and repeat the same process.
+
 
 There is only one way to go in any case, no guess.
 Similar ways need to be well distinguished in code or doc.
@@ -80,7 +86,22 @@ it right, we can feel it - the design will help us make changes. If we feel
 awkward when making changes, something is wrong. So a good design does let us
 know when it's right.
 
+A good design likely to provide support to make changes. We should feel like
+splitting bamboo, not taking much effort. On the other hands, if we feel like
+catching a hedgehog or tangled yarns, we need to do some cleanup first.
+In Chinese,  
+势长节短, 势如破竹  
+势短节长, 强弩之末
+
 When we do it right, the function/class interfaces should be very close to
 business requirements. They speak business languages, with extra details.
 This is where the beauty is. More often, we could find extra for business
 as well.
+
+![The Art of Coding](the_art_of_coding.png)
+
+In math, there is only 1 answer(ok, we try to ensure that). Design is an art, 
+so there could be >1 way to do it right. However, there won't be many ways to do
+it right, maybe only a few ways to do it right.
+
+Back to [Software Engineering](../software_engineering.md)

@@ -12,7 +12,7 @@ Other considerations, e.g., can be found here:
 - https://courses.cs.vt.edu/~csonline/SE/Lessons/Qualities/index.html
 - https://www.comp.nus.edu.sg/~damithch/guide3e/Ch11.html  
       
-![Software Engineering](software_engineering.svg)
+![Software Engineering](docs/software_engineering.svg)
 
 
 #### Maintainability
@@ -52,4 +52,4 @@ an untested composition to users to find out is not pleasant.
 
 We are going to discuss these aspects in more details next. 
 
-[Software Principles](design_principles.md)
+[Software Principles](docs/design_principles.md)
