@@ -39,8 +39,16 @@ ___
 #### Database
 ___
 - PyODBC
+    - Database Connections
+    - Local Transactions and Embedded Transactions
+    - Table Row to Object Mapper
+    - Pandas
 - Others: 
     - SqlAlchemy
+- JSON
+    - Rest: JSON to Object Mapper
+    - Large CSV data
+- Unique IDs
     
 Databases:
 https://db-engines.com/en/ranking
@@ -107,10 +115,21 @@ ___
 - Networkx & Graphviz & PyDot
 
 #### Application Design 
-___
-- Software Engineering
+___  
+- Software Design:
+    - Maintainability
+    - Reusability
 - DDD
 - Art of Architecture
+- Refactoring
+
+Software development is complex, we outline a can-be-followed approach with reasonable reasons.
+
+
+
+https://www.doc.ic.ac.uk/~susan/475/unmain.html
+https://courses.cs.vt.edu/~csonline/SE/Lessons/Qualities/index.html
+https://www.comp.nus.edu.sg/~damithch/guide3e/Ch11.html
 
 
 #### Build and Deployment
