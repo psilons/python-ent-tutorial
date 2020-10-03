@@ -120,7 +120,8 @@ ___
 
 #### Application Design 
 ___  
-- [Software Design](chapter_09_design/software_engineering.md):
+We will discuss the following topics:
+- [Software Design](chapter_09_design/software_engineering.md)
 - [Design Principles](chapter_09_design/docs/design_principles.md)
 - [Design Patterns](chapter_09_design/docs/design_patterns.md)
 - [Design Idioms](chapter_09_design/docs/design_idioms.md)

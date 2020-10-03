@@ -42,9 +42,11 @@ many times.
 
 In order to make reusable code, we have to abstract details so that users
 can understand the functionality without unfamiliar/unnecessary details.
-So proper abstraction decides how widely it can be reused. One example is
-the [power outlets](https://www.110220volts.com/media/wysiwyg/imgs/plugtypes_around_the_world.jpg) 
-due to historic reason. 
+So proper abstraction decides how widely it can be reused. One counter example
+is the power outlets, we have so many types without abstraction due to 
+historic reason. 
+
+![power outlets](https://www.110220volts.com/media/wysiwyg/imgs/plugtypes_around_the_world.jpg) 
 
 Furthermore, we have to think about the composability, such as calling it
 10K times per second (scalability), or chain call in a certain way. Leaving

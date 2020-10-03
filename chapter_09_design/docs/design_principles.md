@@ -16,6 +16,8 @@ Below chart extends the previous chart.
 
 ![Design Principles](design_principles.svg)
 
+There are 4 fundamental design principles.
+
 #### OCP - Open Closed Principle
 ___
 [OCP](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle) is short for
@@ -61,7 +63,7 @@ known as [IoC](https://en.wikipedia.org/wiki/Inversion_of_control). It says
 that concrete implementations depend on abstractions, not the other way
 around. One corollary from this is that the shorter paths of packages is 
 more abstract, the longer paths is more concrete. In other words, if we
-take out the sub packages of longer paths, the abstraction of shorter paths
+take out the sub packages of longer paths, the abstraction with shorter paths
 should have no break (may have feature reductions, but no break). So
 abstraction is more stable.
 
@@ -74,10 +76,21 @@ In Chinese, 讲人话.
 It emphasizes that all interfaces for class and methods should be as close
 as possible to the business domain language.
 
+In general, business enhancements and technology upgrades evolve in different
+directions and frequencies. We try to keep the architecture stable when
+technology upgrades kick in. This approach will leave us to deal with only
+architecture changes from business side.
+
+In practice, we utilize DDD approach to create business domain models in 
+packages with shorter paths, so they are more stable. When new business
+requirements come in, OCP kicks in. When technology upgrades come in, there
+should be no architectural changes. So in most cases, we deal with changes
+with only 1 reason. If both come in, reschedule one of them to later.
+
 ![_](blank.png)
 ![_](blank.png)
 ### Information Management
-The following principles are about information flow, high cohesion and 
+The following 2 principles are about information flow, high cohesion and 
 low coupling.
 #### Law of Demeter
 ___
