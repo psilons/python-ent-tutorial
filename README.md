@@ -1,7 +1,8 @@
 ### Python Enterprise Tutorial
 
-Python has too many libraries:
+Python has so many libraries, e.g.,
 https://github.com/vinta/awesome-python
+Often, there are more than one way to do something.
 
 We intend to provide a minimal foundation for enterprise applications. No
 matter how we try, this is subjective. We provide one tool for each of the
@@ -116,12 +117,12 @@ ___
 
 #### Application Design 
 ___  
-- Software Design:
+- [Software Design](chapter_09_design/software_engineering.md):
     - Maintainability
     - Reusability
-- DDD
-- Art of Architecture
-- Refactoring
+- [Design Principles](chapter_09_design/docs/design_principles.md)
+- [Design Patterns](chapter_09_design/docs/design_patterns.md)
+- [Design Idioms](chapter_09_design/docs/design_idioms.md)
 
 Software development is complex, we outline a can-be-followed approach with reasonable reasons.
 

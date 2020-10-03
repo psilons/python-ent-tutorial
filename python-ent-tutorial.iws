@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df306807-a4c3-44b5-a57c-940f6eb724de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter_09_design/docs/the_art_of_coding.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/analysis_patterns.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/analysis_patterns.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/design_idioms.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/design_idioms.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/design_patterns.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/design_patterns.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/design_patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/design_patterns.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/design_principles.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/design_principles.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/design_principles.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/design_principles.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/design_principles.svg" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/design_principles.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/eip.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/eip.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/ocp.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/ocp.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/ocp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/ocp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/plugtypes_around_the_world.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/plugtypes_around_the_world.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/software_engineering.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/software_engineering.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/software_engineering.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/software_engineering.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_09_design/software_engineering.svg" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/software_engineering.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_09_design/docs/narrow_road.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_09_design/docs/design_idioms.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_09_design/docs/design_idioms.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-ent-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-ent-tutorial.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +121,7 @@
       <workItem from="1601575459613" duration="890000" />
       <workItem from="1601579299435" duration="2165000" />
       <workItem from="1601593163609" duration="13000" />
-      <workItem from="1601599194532" duration="37902000" />
+      <workItem from="1601599194532" duration="39004000" />
     </task>
     <servers />
   </component>

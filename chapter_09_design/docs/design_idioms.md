@@ -102,6 +102,9 @@ as well.
 
 In math, there is only 1 answer(ok, we try to ensure that). Design is an art, 
 so there could be >1 way to do it right. However, there won't be many ways to do
-it right, maybe only a few ways to do it right.
+it right, maybe only a few ways to do it right. The road ahead is very narrow,
+like antelope canyon.
+
+![Narrow](narrow_road.jpg)
 
 Back to [Software Engineering](../software_engineering.md)
