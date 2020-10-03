@@ -51,3 +51,5 @@ Furthermore, we have to think about the composability, such as calling it
 an untested composition to users to find out is not pleasant.
 
 We are going to discuss these aspects in more details next. 
+
+[Software Principles](design_principles.md)

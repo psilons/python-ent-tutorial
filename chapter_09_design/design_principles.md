@@ -12,6 +12,7 @@ There is no difference where we put the code, 2 extremes are:
 
 So in order to design better to meet the aspects of design, we have to dig
 deeper. Here are some principles summarized by pioneers from their experience.
+Below chart extends the previous chart.
 
 ![Design Principles](design_principles.svg)
 
@@ -73,7 +74,8 @@ In Chinese, 讲人话.
 It emphasizes that all interfaces for class and methods should be as close
 as possible to the business domain language.
 
-
+![_](blank.png)
+![_](blank.png)
 ### Information Management
 The following principles are about information flow, high cohesion and 
 low coupling.
@@ -95,6 +97,8 @@ Sometimes, we need to create bi-directional references for information that
 cannot be tracked in IDEs. Time to find where we should make the change is
 much longer than the time to actually change the code.
 
+![_](blank.png)
+![_](blank.png)
 ### Afternote
 There is a popular acronym [SOLID](https://en.wikipedia.org/wiki/SOLID) for
 5 principles. I feel hesitate to agree with one of them belonging to the same 
@@ -121,3 +125,4 @@ change now to save the total cost.
 Over-engineering costs more unnecessarily. This happens when we apply design
 skills improperly.
 
+[Design Patterns](design_patterns.md)

@@ -126,12 +126,6 @@ ___
 Software development is complex, we outline a can-be-followed approach with reasonable reasons.
 
 
-
-https://www.doc.ic.ac.uk/~susan/475/unmain.html
-https://courses.cs.vt.edu/~csonline/SE/Lessons/Qualities/index.html
-https://www.comp.nus.edu.sg/~damithch/guide3e/Ch11.html
-
-
 #### Build and Deployment
 ___
 

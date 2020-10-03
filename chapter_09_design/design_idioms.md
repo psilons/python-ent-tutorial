@@ -2,6 +2,7 @@
 
 
 #### KISS - Keep It Simple and Stupid
+___
 If it's not simple, it's not well thought.
 
 Everything should be made as simple as possible, but not simpler - quoted
@@ -10,12 +11,26 @@ Everything should be made as simple as possible, but not simpler - quoted
 The best ideas are all simple.
 
 #### DRY - Do not Repeat Yourself
+___
 Repeats can break applications easily -if we fix one place and don't touche 
 the repeated. IDE can identify duplicated code, but it's not easy to catch
 duplicated data.
 
+#### Composite Whenever Possible
+___
+GoF: Favor composition over inheritance.
+
+Composition hides implementation details.
+
+
+#### Get it working, get it right, and get it fast
+___
+Get business logic working first, then refactor the code to get design right.
+Finally, make it fast while maintaining the architecture.
+
 
 #### Don't go beyond 3
+___
 This is translated from Chinese idiom: 事不过三. There are many historic stories
 related to this.
 
@@ -25,20 +40,10 @@ Some army hierarchies are in 3-formation, such as 1 brigade has 3 regiments,
 Class inheritance should not go beyond 3 levels. I heard a few times in earlier
 C++ world.
 
-Functions and method should not have >3 parameters (Python PEP8 enforce with 7)
-
-
-#### Composite Whenever Possible
-GoF: Favor composition over inheritance.
-
-Composition hides implementation details.
-
-
-#### Get it working, get it right, and get it fast
-Get business logic working first, then refactor the code to get design right.
-Finally, make it fast while maintaining the architecture.
+Functions and method should not have >3 parameters (Python PEP8 enforces with 7)
 
 #### 80/20 rule
+___
 [80/20 rule](https://en.wikipedia.org/wiki/Pareto_principle) applies to many
 areas. For example, 
 -80% of bugs are found in 20% of the code, 
@@ -49,10 +54,12 @@ A similar saying is that last 10-miles is halfway of a 100-mile journey.
 You feel that it takes the same amount of energy as the first 90 miles.
 
 #### 50/200 rule
+___
 Need a second look for any class with >200 lines or method/function with >50
 lines. in 80% cases refactoring is due.
 
 #### XP - eXtreme Programming
+___
 [XP](https://en.wikipedia.org/wiki/Extreme_programming) is a methodology for
 software development. We take some ideas in spirit here.
 
@@ -68,7 +75,6 @@ This should work for 80% cases.
 
 
 ### Afternote
-
 We can write beautiful code, if we eagerly follow these suggestions. If we do
 it right, we can feel it - the design will help us make changes. If we feel
 awkward when making changes, something is wrong. So a good design does let us
