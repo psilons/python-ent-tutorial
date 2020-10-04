@@ -75,11 +75,23 @@ the best place to punch is existing cracks. In Chinese, this is an idiom:
 攻瑕则坚者瑕 - 管仲  
 Find the sweetest spot to break in and repeat the same process.
 
+It's very hard or impossible to get a design right at the first time. The
+common scenario is that we continue refactoring the design until it's 
+satisfied. Refactoring is hardly over-emphasized.
 
+Another aspect in XP is process optimization. 
 There is only one way to go in any case, no guess.
 Similar ways need to be well distinguished in code or doc.
 This should work for 80% cases.
 
+If we repeat same process many times, then we need to make sure every step
+and entire process optimized. If it's not, we build tools to archive that.
+For example, the current Python build process is not well streamlined. We
+need to repeat dependency information in both setup.py and environment.yaml.
+A cleanup is due.
+
+Keep simple steps simple, make complicated steps automated. Don't replace
+a complicated step with another complicated.
 
 ### Afternote
 We can write beautiful code, if we eagerly follow these suggestions. If we do
@@ -104,7 +116,9 @@ as well.
 In math, there is only 1 answer(ok, we try to ensure that). Design and coding 
 are arts, so there could be >1 way to do it right. However, there won't be many
 ways to do it right, maybe only a few ways to do it right. The road ahead is 
-very narrow, like antelope canyons. With the art of coding, we won't get lost.
+very narrow, like 
+[antelope canyons](https://www.kkday.com/en-id/product/10291). 
+With the art of coding, we won't get lost.
 
 ![Narrow](narrow_road.jpg)
 

@@ -131,8 +131,15 @@ Software development is complex, we outline a can-be-followed approach with reas
 
 #### Build and Deployment
 ___
+- Python Project Setup
+- IntelliJ Setup
+- Test Setup
+- Build Setup
+- Deployment Setup
 
 
+#### Authentication and Authorization (AA)
+___
 One topic that we intend to leave out because of the environment setup - 
 Authentication and Authorization. However, we want to highlight some
 features in this topic:
