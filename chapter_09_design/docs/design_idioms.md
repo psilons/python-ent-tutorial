@@ -99,9 +99,10 @@ it right, we can feel it - the design will help us make changes. If we feel
 awkward when making changes, something is wrong. So a good design does let us
 know when it's right.
 
-A good design likely to provide support to make changes. We should feel like
+When making changes with a good design, we should feel like
 splitting bamboo, not taking much effort. On the other hands, if we feel like
-catching a hedgehog or stretching tangled yarns, we need to do some cleanup first.
+catching a hedgehog or separating tangled yarns, we need to do some cleanup 
+first.
 In Chinese,  
 势长节短, 势如破竹;  
 势短节长, 强弩之末. 
@@ -109,7 +110,7 @@ In Chinese,
 When we do it right, the function/class interfaces should be very close to
 business requirements. They speak business languages, with extra details.
 This is where the beauty is. More often, we could find extra for business
-as well.
+as well. The beauty is to uncover something unexpected.
 
 ![The Art of Coding](the_art_of_coding.png)
 
@@ -118,8 +119,18 @@ are arts, so there could be >1 way to do it right. However, there won't be many
 ways to do it right, maybe only a few ways to do it right. The road ahead is 
 very narrow, like 
 [antelope canyons](https://www.kkday.com/en-id/product/10291). 
-With the art of coding, we won't get lost.
 
 ![Narrow](narrow_road.jpg)
+
+Among all designs, on the good design end, there is no best design. We could have
+2 good designs that lean on different tradeoffs. On the bad design end, we should
+be able to find where in this chapter, or others, it breaks down. We found that,
+in practice, these suggestions are good enough to filter out bad designs in most
+cases.
+
+创艺无第一  
+理规无第二
+
+Make the road flat and run!
 
 Back to [Software Engineering](../software_engineering.md)

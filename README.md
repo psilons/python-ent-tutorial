@@ -49,7 +49,7 @@ ___
 - JSON
     - Rest: JSON to Object Mapper
     - Large CSV data
-- unique id generating: http://yewei.io/generate-short-id-python/
+- unique id generating
     
 Databases:
 https://db-engines.com/en/ranking

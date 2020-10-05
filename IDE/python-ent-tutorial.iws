@@ -2,26 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60799d22-c4a6-49dc-b4b7-49d5aa546243" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter_04_database/src/eat/uuid_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-ent-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-ent-tutorial.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_01_office_docs/chapter_01_office_docs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_02_parallel_computing/chapter_02_parallel_computing.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/chapter_03_web_flask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_04_database/chapter_04_database.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_05_remoting/chapter_05_remoting.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_06_messaging_kafka/chapter_06_messaging_kafka.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter_09_design/docs/design_idioms.md" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_09_design/docs/design_idioms.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_09_design/docs/design_patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_09_design/docs/design_patterns.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_10_project_lifecycle/step_1_python_project_setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_10_project_lifecycle/step_1_python_project_setup.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../env_conda.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-ent-tutorial.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-ent-tutorial.ipr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-ent-tutorial.iws" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -82,6 +78,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="uuid_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chapter_04_database" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../chapter_04_database/src/eat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../chapter_04_database/src/eat/uuid_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -91,6 +109,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.uuid_test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -100,7 +123,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601769967494</updated>
-      <workItem from="1601769968684" duration="1817000" />
+      <workItem from="1601769968684" duration="9655000" />
+      <workItem from="1601868184786" duration="1020000" />
     </task>
     <servers />
   </component>
@@ -118,10 +142,29 @@
     </state>
     <state x="763" y="314" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601771162168" />
     <state x="2850" y="314" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601771362931" />
+    <state width="1803" height="150" key="GridCell.Tab.0.bottom" timestamp="1601868176714">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1803" height="150" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601868176714" />
+    <state width="1803" height="150" key="GridCell.Tab.0.center" timestamp="1601868176714">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1803" height="150" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601868176714" />
+    <state width="1803" height="150" key="GridCell.Tab.0.left" timestamp="1601868176714">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1803" height="150" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601868176714" />
+    <state width="1803" height="150" key="GridCell.Tab.0.right" timestamp="1601868176714">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1803" height="150" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601868176714" />
     <state x="2453" y="170" key="new project wizard" timestamp="1601771369386">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state x="354" y="170" key="new project wizard/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601771173523" />
     <state x="2453" y="170" key="new project wizard/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601771369386" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_ent_tutorial$uuid_test.coverage" NAME="uuid_test Coverage Results" MODIFIED="1601777362231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../chapter_04_database/src/eat" />
   </component>
 </project>
