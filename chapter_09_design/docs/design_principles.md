@@ -21,14 +21,15 @@ There are 4 fundamental design principles.
 #### OCP - Open Closed Principle
 ___
 [OCP](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle) is short for
-"open for extension and closed for modification". Think of this principle in
+"open for extension and closed for modification". It has 2 parts, "open for
+extension" and "closed for modification". For the first part, it's similar to
 road construction where we pave a new lane next to existing lanes. It's likely
 we are not going to touch the existing lanes and merely extend with more lanes.
-So the key is to build the new feature with minimal touch of existing code.
+So the key is to build the new feature with **minimal** touch of existing code.
 
 ![OCP](ocp.svg)
 
-The second "closed for modification" is saying that when we make internal fixes
+The second part, "closed for modification", says that when we make internal fixes
 the code change should not propagate to outside. For example, when we retrieve
 data from a SQL database in a DAO class, if the database connection or SQL 
 queries are on the method interface, then this method is not stable if we
@@ -36,25 +37,27 @@ expect that we could change the data source to Elastic Search, which is JSON
 based, or a file. So a better way to keep these unstable factors out of the
 method signature.
 
+Another aspect is "Don't get into the way". If we extend a functionality for
+some reason, the existing non-satisfying functionalities do not add barriers.
+In other words, implementation details do not "leak" out.
 
 #### SRP - Single Responsibility Principle
 ___
 [SRP](https://en.wikipedia.org/wiki/Single-responsibility_principle) is saying
 that components should have one feature and thus has only one reason to change.
-This principle is so fundamental that it provides support to all the design
-aspects.
 
+There are several ways to get hints to refactor the code to comply with SRP.
 For example, if you have a method depends on another class, and you actually
 use only 1/3 of all public methods in that class, then it would better if you
 split the other class into 2 classes so that you use all methods in one of
-the splits and none in the other. This is a good hint for refactoring. This
-pattern is also termed as 
+the splits and none in the other. This is related to
 [ISP](https://en.wikipedia.org/wiki/Interface_segregation_principle)
 The split of the class makes the split classes single responsible (If they
 are not, split them further).
 
 Another example is to look at the change frequency of code. If some changes
 more frequently than others, then a refactoring is due.
+
 
 #### DIP - Dependency Inversion Principle
 ___
