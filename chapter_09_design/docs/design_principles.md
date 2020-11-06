@@ -76,6 +76,8 @@ ___
 design principle, it's a methodology. In a word, don't speak 
 [Martian](https://lparchive.org/Master-of-Orion/Update%2003/3-BTL4tpX.png).
 In Chinese, 讲人话.
+https://blog.csdn.net/u012562943/article/details/107498542
+
 It emphasizes that all interfaces for class and methods should be as close
 as possible to the business domain language.
 

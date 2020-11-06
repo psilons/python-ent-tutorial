@@ -24,9 +24,9 @@ https://www.doc.ic.ac.uk/~susan/475/unmain.html. It's similar to
 fly, maintain, fly, maintain, ... .
 
 In general, code readability is very important for software written by more 
-than 3 developers. Martin Fowler wrote in his Refactoring book, "Any fool 
+than 3 developers. Martin Fowler wrote in his Refactoring book, "**Any fool 
 can write code that a computer can understand. Good programmers write code 
-that humans can understand." We can't modify code without understanding.
+that humans can understand.**" We can't modify code without understanding.
 
 Mixing 2 concerns together would make it harder to maintain, since when we 
 modify code for one concern we have to make sure we don't break the other one.
@@ -70,3 +70,5 @@ We are going to discuss these aspects in more details next.
 We illustrate the content with 5 small examples. It's hard to find good 
 examples. First, it needs to be small so that we know the requirements quickly. 
 On the other hand, it needs to be complex enough to show the difference.
+
+https://dzone.com/articles/21-object-oriented-and-system-design-problems-to-p

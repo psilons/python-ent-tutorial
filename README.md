@@ -138,6 +138,14 @@ ___
 - Deployment Setup
 
 
+#### References
+
+- Fluent Python
+- Effective Python
+- https://www.theserverside.com/discussions/thread/81800.html
+- https://realpython.com/python-descriptors/
+- https://blog.millionintegrals.com/metaclasses-in-python/
+
 #### Authentication and Authorization (AA)
 ___
 One topic that we intend to leave out because of the environment setup - 

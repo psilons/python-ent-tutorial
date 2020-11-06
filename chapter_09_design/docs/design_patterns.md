@@ -24,6 +24,7 @@ bible in the field.
 
 sourced from https://en.wikipedia.org/wiki/Design_Patterns.
 
+
 #### Analysis Patterns
 ___
 This is another equally best book, authored by 
