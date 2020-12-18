@@ -275,11 +275,19 @@ More details:
 
 ## WSGI Integration
 Both gunicorn and uwsgi won't run on windows, because they use sys/socket 
-underneath, this is a *nix lib. 
+underneath, this is a *nix lib. So install them with cygwin or win10 bash on windows.
+Note that uwsgi install
+```pip install uwsgi```
+requires compilation, it needs dependent libs installed. Sometimes, we don't have
+permission to do so, such as in cloud environment. So we are going to use conda
+installation
+```conda install -c conda-forge uwsgi```.
+This works for Linux and Mac. Use ```uwsgi --version``` to validate the installation.
 
+For now, we use Linux/CentOS. 
 
-[Here](https://medium.com/@ekwinder/setting-up-uwsgi-with-nginx-on-macos-for-python-web-apps-25edf4edab19) 
-is a setup for Mac.
+https://chriswarrick.com/blog/2016/02/10/deploying-python-web-apps-with-nginx-and-uwsgi-emperor/
+
 
 ## Testing
 https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask.test_client

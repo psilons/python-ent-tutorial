@@ -3,6 +3,9 @@
 # https://hackersandslackers.com/deploy-flask-uwsgi-nginx/
 # https://pypi.org/project/Flask-uWSGI-WebSocket/
 # https://pypi.org/project/pyuwsgi/
+export CURR_DIR=$(dirname "$0")
+
+export PYTHONPATH=$CURR_DIR/src
 uwsgi --http 127.0.0.1:8080  --module src/flask_test_app/uwsgi_main:app
 
 # or run with ini file

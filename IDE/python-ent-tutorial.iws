@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60799d22-c4a6-49dc-b4b7-49d5aa546243" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../chapter_03_web_flask/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter_03_web_flask/templates/file_upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-ent-tutorial.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/python-ent-tutorial.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-ent-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-ent-tutorial.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/src/flask_test_app/web_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/src/flask_test_app/web_handlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/src/flask_test_app/web_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/src/flask_test_app/web_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_05_remoting/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_05_remoting/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/uwsgi_start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/uwsgi_start.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +252,7 @@
       <workItem from="1608092328718" duration="4000" />
       <workItem from="1608109944993" duration="27127000" />
       <workItem from="1608258656867" duration="75000" />
-      <workItem from="1608258750101" duration="17892000" />
+      <workItem from="1608258750101" duration="21696000" />
     </task>
     <servers />
   </component>
