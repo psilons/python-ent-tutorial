@@ -2,45 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60799d22-c4a6-49dc-b4b7-49d5aa546243" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../chapter_05_remoting/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter_06_database/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter_06_database/src/eat/pyodbc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter_06_database/src/eat/sqlalchemy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter_09_design/docs/精作论.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_04_database.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_06_database.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_06_messaging_kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_04_messaging_kafka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter_03_web_flask/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter_03_web_flask/templates/file_upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-ent-tutorial.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/python-ent-tutorial.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-ent-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-ent-tutorial.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/src/flask_test_app/web_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/src/flask_test_app/web_handlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/static/favicon1.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/static/images/favicon1.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/static/favicon2.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/static/images/favicon2.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/static/fire.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/static/images/fire.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/static/fire.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/static/fire1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/static/images/fire1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/static/frog.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/static/images/frog.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/static/panda.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/templates/hello_world.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/templates/hello_world.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/templates/hello_world1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/templates/hello_world1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/templates/hello_world2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/templates/hello_world2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/templates/length.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/templates/length.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/templates/pokemon.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/templates/pokemon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_04_database/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_04_database/src/eat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_06_database/src/eat/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_04_database/src/eat/pyodbc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_04_messaging_kafka/src/eat/kafka_test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_04_database/src/eat/pyodbc/sqlite_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_06_database/src/eat/pyodbc/sqlite_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_04_database/src/eat/pyodbc/test1.db" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_06_database/src/eat/pyodbc/test1.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_04_database/src/eat/sqlalchemy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_04_messaging_kafka/src/eat/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_04_database/src/eat/uuid_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_06_database/src/eat/uuid_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_06_messaging_kafka/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_04_messaging_kafka/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_06_messaging_kafka/docs/all.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_04_messaging_kafka/docs/all.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_06_messaging_kafka/docs/message_show.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_04_messaging_kafka/docs/message_show.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_06_messaging_kafka/docs/persistence.png" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_04_messaging_kafka/docs/persistence.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_06_messaging_kafka/src/eat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/static/js/my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_06_messaging_kafka/src/eat/kafka_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/static/css/my.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_06_messaging_kafka/src/eat/kafka_test/kafka_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_04_messaging_kafka/src/eat/kafka_test/kafka_admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_06_messaging_kafka/src/eat/kafka_test/kafka_consumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_04_messaging_kafka/src/eat/kafka_test/kafka_consumer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter_06_messaging_kafka/src/eat/kafka_test/kafka_producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_04_messaging_kafka/src/eat/kafka_test/kafka_producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter_03_web_flask/src/flask_test_app/web_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_03_web_flask/src/flask_test_app/web_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter_05_remoting/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter_05_remoting/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,10 +48,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../technical-notes/software/programming_tools.md" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapter_03_web_flask" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33448276" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -100,7 +70,7 @@
       <recent name="D:\00dev\python\tutorials\python-ent-tutorial\chapter_01_office_docs\src\eat\excel\pywin32" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.jinja2_test1">
+  <component name="RunManager" selected="Python.web_main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -168,28 +138,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pywin32_2instances" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="chapter_01_office_docs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../chapter_01_office_docs/src/eat/excel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\00dev\python\tutorials\python-ent-tutorial\chapter_01_office_docs\src\eat\excel\pywin32\pywin32_2instances.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="pywin32_content" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="chapter_01_office_docs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,6 +182,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="web_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="chapter_03_web_flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\0dev\miniconda3\envs\ent_tutorial\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../chapter_03_web_flask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../chapter_03_web_flask/src/flask_test_app/web_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -243,13 +213,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Python.excel_open_in_python" />
+      <item itemvalue="Python.jinja2_test1" />
+      <item itemvalue="Python.pywin32_content" />
+      <item itemvalue="Python.pywin32_write_test" />
+      <item itemvalue="Python.web_main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.web_main" />
         <item itemvalue="Python.jinja2_test1" />
         <item itemvalue="Python.excel_open_in_python" />
         <item itemvalue="Python.pywin32_write_test" />
         <item itemvalue="Python.pywin32_content" />
-        <item itemvalue="Python.pywin32_2instances" />
       </list>
     </recent_temporary>
   </component>
@@ -282,17 +259,34 @@
       <workItem from="1608092328718" duration="4000" />
       <workItem from="1608109944993" duration="27127000" />
       <workItem from="1608258656867" duration="75000" />
-      <workItem from="1608258750101" duration="663000" />
+      <workItem from="1608258750101" duration="17892000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../chapter_03_web_flask/src/flask_test_app/web_main.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../chapter_03_web_flask/src/flask_test_app/web_handlers.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_ent_tutorial$uuid_test.coverage" NAME="uuid_test Coverage Results" MODIFIED="1601777362231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../chapter_04_database/src/eat" />
     <SUITE FILE_PATH="coverage/python_ent_tutorial$pywin32_write_test.coverage" NAME="pywin32_write_test Coverage Results" MODIFIED="1603683803129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../chapter_01_office_docs/src/eat/excel" />
     <SUITE FILE_PATH="coverage/python_ent_tutorial$pywin32_2instances.coverage" NAME="pywin32_2instances Coverage Results" MODIFIED="1603682919733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../chapter_01_office_docs/src/eat/excel" />
+    <SUITE FILE_PATH="coverage/python_ent_tutorial$web_main.coverage" NAME="web_main Coverage Results" MODIFIED="1608287425328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../chapter_03_web_flask" />
     <SUITE FILE_PATH="coverage/python_ent_tutorial$pywin32_content.coverage" NAME="pywin32_content Coverage Results" MODIFIED="1603683971010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../chapter_01_office_docs/src/eat/excel" />
     <SUITE FILE_PATH="coverage/python_ent_tutorial$jinja2_test1.coverage" NAME="jinja2_test1 Coverage Results" MODIFIED="1604002118938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../chapter_01_office_docs/src/eat/html_templates" />
     <SUITE FILE_PATH="coverage/python_ent_tutorial$excel_open_in_python.coverage" NAME="excel_open_in_python Coverage Results" MODIFIED="1604000768414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../chapter_01_office_docs/src/eat/excel" />

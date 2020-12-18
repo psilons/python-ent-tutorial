@@ -4,11 +4,11 @@
 It delegates HTTP requests through [Werkzeug](https://palletsprojects.com/p/werkzeug/)
 to our code and use [Jinja2](https://pypi.org/project/Jinja2/) as response template.
 
-We can run Flask for development and wrap it in a [WSGI](https://wsgi.readthedocs.io/en/latest/) 
+We can run Flask for development, and wrap it in a [WSGI](https://wsgi.readthedocs.io/en/latest/) 
 server, such as
 [gunicorn](https://gunicorn.org/)
-or [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/) 
-for production(to handle multithreading).
+or [uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/),
+for production(to handle multithreading/multi-process).
 
 Tornado is simple, but need more knowledge for multi-threading.
 Django has relatively higher learning curve. 
@@ -25,6 +25,13 @@ Tutorials:
 - https://www.javatpoint.com/flask-tutorial
 - https://flask.palletsprojects.com/en/1.1.x/tutorial/
 - https://exploreflask.com/en/latest/views.html
+- https://testdriven.io/courses/learn-flask/sessions/
+- https://pypi.org/project/Flask-Injector/
+- https://www.tutorialspoint.com/flask/flask_sessions.htm
+- https://www.geeksforgeeks.org/python-introduction-to-web-development-using-flask/
+- http://zetcode.com/python/flask/
+- https://www.softwaretestinghelp.com/python-flask-tutorial/
+- https://blog.tecladocode.com/handling-the-next-url-when-logging-in-with-flask/
 
 Books:
 - Flask Web Development, 2E
@@ -113,8 +120,11 @@ src/flask_test_app/web_main.py lists several ways to deal with requests:
 - parameters in url (/pokemon/<<int:num>>)
 
 src/flask_test_app/web_handlers.py shows
-- streaming data
-- file upload
+- streaming data: https://www.fullstackpython.com/websockets.html
+  
+- file upload: see [this simple example](https://pythonbasics.org/flask-upload-file/),
+  [this good post](https://blog.miguelgrinberg.com/post/handling-file-uploads-with-flask),
+  and [streaming](https://stackoverflow.com/questions/62552660/how-to-forward-http-range-requests-using-python-and-flask).
 
 Generally, we put handler logic in separate files for better code
 structure. In the file src/flask_test_app/web_handlers.py, 
@@ -152,8 +162,6 @@ Redirect does not carry request parameters, so we have to do it manually.
 This is because the redirect request is a new request. Clients can see the
 url change because the redirect response reaches clients.
 
-[Difference](http://www.differencebetween.net/technology/difference-between-forward-and-redirect/)
-
 Redirect is useful in several cases, e.g., when a user hits a page where login
 is required we can redirect the user to the login page.
 
@@ -165,52 +173,126 @@ See [here](https://www.baeldung.com/servlet-redirect-forward),
 [flask-http-forwarding](https://github.com/casetext/flask-http-forwarding),
 and [Flask-Forward](https://pythonhosted.org/Flask-Forward/).
 
-Flask has a message flashing
+[Difference between redirect and forward](http://www.differencebetween.net/technology/difference-between-forward-and-redirect/)
+
+
+## Error handling:  
+Rather than catching errors in each handler, we can catch all with 
+decorator @app.errorhandler(Exception). Create an AOP like method
+and annotate it with this decorator.  
+Inside the method, we may log errors, email errors, etc. Then return a
+web page with proper details.
+
+See references for more details:
+- https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vii-error-handling
+- https://code-maven.com/python-flask-catch-exception
+- https://stackoverflow.com/questions/60324360/what-is-best-practice-for-flask-error-handling
+
+Message flashing in Flask is handy to pass out intermediate results.
+This needs sessions, which in turn needs secret key. So set the secret key
+right after app creation. In our example, we flash messages out in /bye and
+error handler and capture it in error.html (This is just for illustration
+purpose). In production, we should handle all messages with same method's
+template.
+
+See references for more details:
 - https://flask.palletsprojects.com/en/1.1.x/patterns/flashing/
 - https://cs.wellesley.edu/~cs304/lectures/flask/activities-3.html
 
-## Error handling:  
-https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-vii-error-handling
-https://pythonprogramming.net/flask-error-handling-basics/
-https://code-maven.com/python-flask-catch-exception
-@app.errorhandler(Exception)
-https://stackoverflow.com/questions/60324360/what-is-best-practice-for-flask-error-handling
-
 ## HTTP Sessions and Cookies
+[HTTP sessions](https://stackoverflow.com/questions/3804209/what-are-sessions-how-do-they-work) 
+send [cookies](https://en.wikipedia.org/wiki/HTTP_cookie) to client browsers.
 
-https://www.javatpoint.com/flask-session
-https://www.valentinog.com/blog/cookies/
-session/authentication
-https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce
+Thought cookies have size limit 4K, we could store many client data in cookies, 
+such as username. Shopping carts may not fit.
+However, for security reason, we want to leave only the client identifier
+in cookies and store client data on server side. This identifier is the
+session ID, and we are going to encrypt it for data security.
 
-client side session makes server stateless but not safe.
-app['SECRET_KEY] encrypts data in cookie, but cookies
-can be stolen.
+We should use HTTPS as well. If the cookie is stolen, we can remove it on
+the server side.
 
-server side session
-flask-session - abandoned?
-https://pythonhosted.org/Flask-KVSession/
-https://hackersandslackers.com/managing-user-session-variables-with-flask-sessions-and-redis/
-use a distributed cache to make server stateless.
-https://gist.github.com/wushaobo/52be20bc801243dddf52a8be4c13179a
+### Session ID and Encryption
+We could use unique user name or generate a random number as session id.
 
-https://stackoverflow.com/questions/43304363/simple-server-side-flask-session-variable/47459571
-shopping cart
+Set app.secret_key will trigger Flask to encrypt cookies.
 
-ttps://testdriven.io/courses/learn-flask/sessions/
+### Server Side Session Storage
+We could use a local cache to store session data. However, it's not going to
+work when we have more than one server to serve requests if we don't have a
+session-sticky load balancer. So we need a shared storage across all servers.
 
-https://testdriven.io/courses/learn-flask/sessions/
+We could write our lib to handle session storage - 
+implement flask.sessions.SessionInterface. However, there is a lib already,
+[flask_session](https://github.com/fengsp/flask-session) with the doc
+[flask_session_doc](https://flask-session.readthedocs.io/en/latest/).
+
+For illustration purpose, we use filesystem as the storage. This is fine
+in dev. In production, redis or others are preferred. 
+
+The flask-session set up is
+
+```
+app.secret_key = 'I am secret'  
+app.config['SESSION_TYPE'] = 'filesystem'
+# app.config['SESSION_FILE_DIR'] = 'my_folder'  # default to flask_session
+Session(app)
+```
+
+The usage is like this:
+
+```
+@stream_urls.route('/session_set')
+def session_set():
+    session['key'] = 'value'
+    return 'ok'
+
+@stream_urls.route('/session_get')
+def session_get():
+    return session.get('key', 'not set')
+```
+
+In FireFox, go to upper right corner menu, then web developer | storage inspector.
+We should see the cook we just set.
+
+To use redis as the storage, we need to do the 
+[following](https://stackoverflow.com/questions/44769152/difficulty-implementing-server-side-session-storage-using-redis-and-flask):
+
+```
+app.config['SESSION_TYPE'] = 'redis'
+app.config['SESSION_REDIS'] = redis.from_url('127.0.0.1:6379')
+
+sess = Session()
+sess.init_app(app)
+```
+
+More details:
+- https://www.javatpoint.com/flask-session
+- https://www.valentinog.com/blog/cookies/
+- https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce
+- https://hackersandslackers.com/managing-user-session-variables-with-flask-sessions-and-redis/
+- https://github.com/hackersandslackers/flask-session-tutorial
 
 ## WSGI Integration
+Both gunicorn and uwsgi won't run on windows, because they use sys/socket 
+underneath, this is a *nix lib. 
+
+
+[Here](https://medium.com/@ekwinder/setting-up-uwsgi-with-nginx-on-macos-for-python-web-apps-25edf4edab19) 
+is a setup for Mac.
 
 ## Testing
 https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask.test_client
 
 ## HTML to PDF
-https://pythonpedia.com/en/knowledge-base/28165704/convert-html-to-pdf-using-python-flask
+Sometimes, there is a need to convert the output from HTML to PDF.
+Here are some references using pdfkit lib and WkHTMLtoPDF:
+- https://pythonpedia.com/en/knowledge-base/28165704/convert-html-to-pdf-using-python-flask
 
+## Flask Security
 
-
+https://blog.nvisium.com/injecting-flask
+https://martinfowler.com/articles/session-secret.html
 
 
 
