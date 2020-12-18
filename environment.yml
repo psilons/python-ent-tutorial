@@ -1,12 +1,13 @@
-name: py385_cb
+name: ent_tutorial
 
 channels:
     - defaults
 
 dependencies:
-    - python==3.8.5  # The first line should always be python version
+    - python>=3.8  # The first line should always be python version
     - pip
     - pillow
     - kafka
+    - flask  # chapter 3
     - pip:
           - pipdeptree # or conda install -c conda-forge pipdeptree
