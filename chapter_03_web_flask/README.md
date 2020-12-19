@@ -284,10 +284,32 @@ installation
 ```conda install -c conda-forge uwsgi```.
 This works for Linux and Mac. Use ```uwsgi --version``` to validate the installation.
 
-For now, we use Linux/CentOS. 
+gunicorn installation is simple without compilation ```pip install gunicorn```.
 
-https://chriswarrick.com/blog/2016/02/10/deploying-python-web-apps-with-nginx-and-uwsgi-emperor/
+For now, we use Linux/CentOS. There are 2 scripts here to start uwsgi and gunicorn. 
 
+Another option is [Waitress](https://docs.pylonsproject.org/projects/waitress/en/latest/),
+which runs on windows, linux, and mac.
+
+We leave out Nginx web server because it's not python related. The full picture should be
+
+![Full](docs/python%20foundation.png)
+
+[Here](https://chriswarrick.com/blog/2016/02/10/deploying-python-web-apps-with-nginx-and-uwsgi-emperor/)
+shows how to integrate all 3: nginx + uwsgi + flask.
+
+Flask is simple because it pushes the multi-processing logic to WSGI containers.
+In contrast, Tornado is complex because it mixes web handler code with the multi-processing
+code. Which tool to use depends on scenarios.
+
+These servers have configuration files for more options, please check their documents.
+ 
+References:
+- https://www.digitalocean.com/community/tutorials/how-to-set-up-uwsgi-and-nginx-to-serve-python-apps-on-centos-7
+- https://uwsgi-docs.readthedocs.io/en/latest/
+- https://docs.gunicorn.org/en/stable/settings.html
+- https://docs.pylonsproject.org/projects/waitress/en/stable/
+- https://quintagroup.com/cms/python/web-server
 
 ## Testing
 https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask.test_client
