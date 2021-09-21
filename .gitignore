@@ -1,2 +1,6 @@
 __pycache__
 /chapter_03_web_flask/flask_session
+/chapter_07_pandas/src/eat/pandas/IMDb title_principals.csv
+/chapter_07_pandas/src/eat/pandas/IMDb movies.csv
+/chapter_07_pandas/src/eat/pandas/IMDb names.csv
+/chapter_07_pandas/src/eat/pandas/IMDb ratings.csv

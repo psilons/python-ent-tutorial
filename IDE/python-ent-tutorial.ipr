@@ -11,6 +11,40 @@
   </component>
   <component name="ProjectCodeStyleConfiguration">
     <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default (1)" />
+    <code_scheme name="Project" version="173">
+      <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+      <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+      <JavaCodeStyleSettings>
+        <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+        <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+      </JavaCodeStyleSettings>
+      <ScalaCodeStyleSettings>
+        <option name="MULTILINE_STRING_CLOSING_QUOTES_ON_NEW_LINE" value="true" />
+      </ScalaCodeStyleSettings>
+      <codeStyleSettings language="JAVA">
+        <option name="BRACE_STYLE" value="2" />
+        <option name="CLASS_BRACE_STYLE" value="2" />
+        <option name="METHOD_BRACE_STYLE" value="2" />
+      </codeStyleSettings>
+      <codeStyleSettings language="Scala">
+        <option name="BRACE_STYLE" value="2" />
+        <option name="CLASS_BRACE_STYLE" value="2" />
+        <option name="METHOD_BRACE_STYLE" value="2" />
+        <option name="SPACE_BEFORE_IF_PARENTHESES" value="false" />
+        <option name="SPACE_BEFORE_WHILE_PARENTHESES" value="false" />
+        <option name="SPACE_BEFORE_FOR_PARENTHESES" value="false" />
+        <indentOptions>
+          <option name="INDENT_SIZE" value="4" />
+          <option name="CONTINUATION_INDENT_SIZE" value="4" />
+          <option name="TAB_SIZE" value="4" />
+        </indentOptions>
+      </codeStyleSettings>
+      <codeStyleSettings language="yaml">
+        <indentOptions>
+          <option name="INDENT_SIZE" value="4" />
+        </indentOptions>
+      </codeStyleSettings>
+    </code_scheme>
   </component>
   <component name="ProjectModuleManager">
     <modules>
@@ -18,7 +52,7 @@
       <module fileurl="file://$PROJECT_DIR$/chapter_02_parallel_computing.iml" filepath="$PROJECT_DIR$/chapter_02_parallel_computing.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_03_web_flask.iml" filepath="$PROJECT_DIR$/chapter_03_web_flask.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_04_messaging_kafka.iml" filepath="$PROJECT_DIR$/chapter_04_messaging_kafka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/chapter_05_remoting.iml" filepath="$PROJECT_DIR$/chapter_05_remoting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter_05_distributed_services.iml" filepath="$PROJECT_DIR$/chapter_05_distributed_services.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_06_database.iml" filepath="$PROJECT_DIR$/chapter_06_database.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_07_pandas.iml" filepath="$PROJECT_DIR$/chapter_07_pandas.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter_08_configuration.iml" filepath="$PROJECT_DIR$/chapter_08_configuration.iml" />

@@ -14,6 +14,10 @@ So in order to design better to meet the aspects of design, we have to dig
 deeper. Here are some principles summarized by pioneers from their experience.
 Below chart extends the previous chart.
 
+Conflicts:
+- maintainability vs performance
+- 
+
 ![Design Principles](design_principles.svg)
 
 There are 4 fundamental design principles.

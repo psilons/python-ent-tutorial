@@ -9,6 +9,8 @@ matter how we try, this is subjective. We provide one tool for each of the
 enterprise requirements. Some requirements might need a combination
 of several libraries.
 
+https://community.ibm.com/community/user/datascience/blogs/paco-nathan/2019/03/12/a-landscape-diagram-for-python-data
+
 
 #### Office Documents and PDFs
 ___

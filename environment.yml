@@ -10,6 +10,8 @@ dependencies:
     - pillow
     - flask  # chapter 3
     - kafka-python  # chapter 4
+    - pyodbc  # chapter 6
+    - pandas  # chapter 7
     - pip:
           - flask-session
           - pipdeptree # or conda install -c conda-forge pipdeptree

@@ -284,6 +284,8 @@ installation
 ```conda install -c conda-forge uwsgi```.
 This works for Linux and Mac. Use ```uwsgi --version``` to validate the installation.
 
+There is also a python package pyuwsgi in pypi.
+
 gunicorn installation is simple without compilation ```pip install gunicorn```.
 
 For now, we use Linux/CentOS. There are 2 scripts here to start uwsgi and gunicorn. 

@@ -2,7 +2,9 @@ https://github.com/psilons/pypigeonhole-build
 
 batch/service
 
-monitoring - measure, warn
+deployment
+
+monitoring - measure, warning
 
 
 
