@@ -55,6 +55,12 @@ group by, pivot
 cumsum, row sum
 https://www.dezyre.com/recipes/get-descriptive-statistics-of-pandas-dataframe
 
+To address multi-core/parallel and big data size issues,  
+dask, vaex, modin  
+https://github.com/databricks/koalas  
+https://arrow.apache.org/
+
+
 ## Modin
 https://modin.readthedocs.io/en/latest/
 https://discuss.modin.org/t/profile-modin-line-by-line/65
@@ -103,7 +109,7 @@ https://www.sentia.com.au/blog/a-quick-dive-into-data-transformation-and-migrati
 https://www.linkedin.com/pulse/easy-etl-python-beginners-oscar-valles/
 https://www.xplenty.com/blog/comparison-of-the-top-python-etl-tools/
 
-
+https://github.com/jtablesaw/tablesaw
 
 
  

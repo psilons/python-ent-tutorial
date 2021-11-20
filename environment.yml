@@ -15,3 +15,6 @@ dependencies:
     - pip:
           - flask-session
           - pipdeptree # or conda install -c conda-forge pipdeptree
+          - wordcloud # extra libs
+          - pypdf2 # extra libs
+          - jieba # extra libs, Chinese
