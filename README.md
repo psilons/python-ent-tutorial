@@ -162,3 +162,10 @@ features in this topic:
 
 Because of the unavailable external setup, we leave this out of our scope.
 However, they are very common in enterprise applications.
+
+
+#### UML
+
+- https://creately.com/blog/diagrams/guidelines-for-uml-class-diagrams-part-1/
+- https://creately.com/blog/diagrams/class-diagram-tutorial/
+

@@ -22,3 +22,5 @@ generate word cloud
 - https://blog.csdn.net/qq_33997198/article/details/106493983
 - https://github.com/fxsjy/jieba
 - https://github.com/stopwords-iso/stopwords-zh
+
+- https://ourcodeworld.com/articles/read/1613/top-5-best-python-libraries-to-extract-keywords-from-text-automatically
