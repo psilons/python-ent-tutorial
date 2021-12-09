@@ -18,3 +18,7 @@ dependencies:
           - wordcloud # extra libs
           - pypdf2 # extra libs
           - jieba # extra libs, Chinese
+          - paddlepaddle  # OCR Chinese
+          - paddleocr
+
+# --use-feature=2020-resolver
