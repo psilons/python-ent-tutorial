@@ -12,13 +12,9 @@ dependencies:
     - kafka-python  # chapter 4
     - pyodbc  # chapter 6
     - pandas  # chapter 7
+    - requests
     - pip:
           - flask-session
           - pipdeptree # or conda install -c conda-forge pipdeptree
-          - wordcloud # extra libs
-          - pypdf2 # extra libs
-          - jieba # extra libs, Chinese
-          - paddlepaddle  # OCR Chinese
-          - paddleocr
 
 # --use-feature=2020-resolver

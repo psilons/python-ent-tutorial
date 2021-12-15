@@ -169,3 +169,6 @@ However, they are very common in enterprise applications.
 - https://creately.com/blog/diagrams/guidelines-for-uml-class-diagrams-part-1/
 - https://creately.com/blog/diagrams/class-diagram-tutorial/
 
+#### Connection Pool
+- https://github.com/mkleehammer/pyodbc/issues/774
+- http://www.unixodbc.org/doc/conn_pool.html

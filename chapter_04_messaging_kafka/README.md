@@ -114,3 +114,5 @@ https://martinfowler.com/articles/microservices.html
 Third rule: Hide it
 
 https://www.toutiao.com/a6867544958019043843/
+
+[Celery](https://github.com/celery/celery) is like JMS interfaces, needs backend brokers.

@@ -325,7 +325,7 @@ Here are some references using pdfkit lib and WkHTMLtoPDF:
 
 https://blog.nvisium.com/injecting-flask
 https://martinfowler.com/articles/session-secret.html
-
+https://pypi.org/project/Flask-JWT/
 
 
 
