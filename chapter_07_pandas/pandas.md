@@ -111,7 +111,7 @@ https://www.xplenty.com/blog/comparison-of-the-top-python-etl-tools/
 
 https://github.com/jtablesaw/tablesaw
 
-
+https://pbpython.com/pandas-crosstab.html
  
 
 
